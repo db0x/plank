@@ -439,7 +439,7 @@ namespace Plank
 				height -= top_offset;
 			
 			// height of the dock window
-			var dock_height = height + (screen_is_composited ? UrgentBounceHeight : 0);
+			var dock_height = height + (screen_is_composited ? UrgentBounceHeight : 0) +100;
 			
 			var width = 0;
 			switch (Alignment) {
